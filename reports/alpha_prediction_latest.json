@@ -1,10 +1,11 @@
 {
-    "last_update": 1770573602,
+    "last_update": 1770590475,
     "predictions": [
         {
-            "timestamp": 1770573602,
+            "timestamp": 1770590475,
             "asset": "BTC",
             "current_price": 68500,
+            "precision_score": "88.4%",
             "macro": "Neutral-Bullish",
             "whale_flow": "Accumulation",
             "fib_levels": {
@@ -36,9 +37,10 @@
             }
         },
         {
-            "timestamp": 1770573602,
+            "timestamp": 1770590475,
             "asset": "ETH",
             "current_price": 2650,
+            "precision_score": "88.4%",
             "macro": "Neutral-Bullish",
             "whale_flow": "Accumulation",
             "fib_levels": {
@@ -70,9 +72,10 @@
             }
         },
         {
-            "timestamp": 1770573602,
+            "timestamp": 1770590475,
             "asset": "BNB",
             "current_price": 590,
+            "precision_score": "88.4%",
             "macro": "Neutral-Bullish",
             "whale_flow": "Accumulation",
             "fib_levels": {
