@@ -1,8 +1,8 @@
 {
-    "last_update": 1770555941,
+    "last_update": 1770573602,
     "predictions": [
         {
-            "timestamp": 1770555941,
+            "timestamp": 1770573602,
             "asset": "BTC",
             "current_price": 68500,
             "macro": "Neutral-Bullish",
@@ -36,7 +36,7 @@
             }
         },
         {
-            "timestamp": 1770555941,
+            "timestamp": 1770573602,
             "asset": "ETH",
             "current_price": 2650,
             "macro": "Neutral-Bullish",
@@ -70,7 +70,7 @@
             }
         },
         {
-            "timestamp": 1770555941,
+            "timestamp": 1770573602,
             "asset": "BNB",
             "current_price": 590,
             "macro": "Neutral-Bullish",
