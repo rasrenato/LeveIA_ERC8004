@@ -1,39 +1,107 @@
 {
-    "timestamp": 1770552002,
-    "asset": "BTC",
-    "current_price": 68500,
-    "macro": "Neutral-Bullish",
-    "whale_flow": "Accumulation",
-    "fib_levels": {
-        "0.236": 67752.8,
-        "0.382": 64073.6,
-        "0.500": 61100.0,
-        "0.618": 58126.4
-    },
-    "analysis": {
-        "bias": "LONG_BIAS",
-        "probability": 0.65,
-        "cenarios": [
-            {
-                "name": "Cen\u00e1rio 1 (Bullish)",
-                "desc": "Rejei\u00e7\u00e3o em Fib 0.5 e busca por $78k",
-                "prob": "40%"
+    "last_update": 1770555941,
+    "predictions": [
+        {
+            "timestamp": 1770555941,
+            "asset": "BTC",
+            "current_price": 68500,
+            "macro": "Neutral-Bullish",
+            "whale_flow": "Accumulation",
+            "fib_levels": {
+                "0.236": 67752.8,
+                "0.382": 64073.6,
+                "0.500": 61100.0,
+                "0.618": 58126.4
             },
-            {
-                "name": "Cen\u00e1rio 2 (Sideways)",
-                "desc": "Lateraliza\u00e7\u00e3o entre $66k e $72k",
-                "prob": "35%"
-            },
-            {
-                "name": "Cen\u00e1rio 3 (Correction)",
-                "desc": "Quebra de Fib 0.5 buscando 0.618 ($58k)",
-                "prob": "20%"
-            },
-            {
-                "name": "Cen\u00e1rio 4 (Black Swan)",
-                "desc": "Fatores macro externos empurram para $52k",
-                "prob": "5%"
+            "analysis": {
+                "bias": "LONG_BIAS",
+                "probability": 0.65,
+                "cenarios": [
+                    {
+                        "name": "Bullish",
+                        "desc": "Rejei\u00e7\u00e3o em Fib e busca por nova m\u00e1xima",
+                        "prob": "40%"
+                    },
+                    {
+                        "name": "Sideways",
+                        "desc": "Lateraliza\u00e7\u00e3o t\u00e9cnica no range",
+                        "prob": "35%"
+                    },
+                    {
+                        "name": "Correction",
+                        "desc": "Quebra de suporte Fib 0.5",
+                        "prob": "25%"
+                    }
+                ]
             }
-        ]
-    }
+        },
+        {
+            "timestamp": 1770555941,
+            "asset": "ETH",
+            "current_price": 2650,
+            "macro": "Neutral-Bullish",
+            "whale_flow": "Accumulation",
+            "fib_levels": {
+                "0.236": 2711.2,
+                "0.382": 2594.4,
+                "0.500": 2500.0,
+                "0.618": 2405.6
+            },
+            "analysis": {
+                "bias": "LONG_BIAS",
+                "probability": 0.65,
+                "cenarios": [
+                    {
+                        "name": "Bullish",
+                        "desc": "Rejei\u00e7\u00e3o em Fib e busca por nova m\u00e1xima",
+                        "prob": "40%"
+                    },
+                    {
+                        "name": "Sideways",
+                        "desc": "Lateraliza\u00e7\u00e3o t\u00e9cnica no range",
+                        "prob": "35%"
+                    },
+                    {
+                        "name": "Correction",
+                        "desc": "Quebra de suporte Fib 0.5",
+                        "prob": "25%"
+                    }
+                ]
+            }
+        },
+        {
+            "timestamp": 1770555941,
+            "asset": "BNB",
+            "current_price": 590,
+            "macro": "Neutral-Bullish",
+            "whale_flow": "Accumulation",
+            "fib_levels": {
+                "0.236": 604.04,
+                "0.382": 587.98,
+                "0.500": 575.0,
+                "0.618": 562.02
+            },
+            "analysis": {
+                "bias": "LONG_BIAS",
+                "probability": 0.65,
+                "cenarios": [
+                    {
+                        "name": "Bullish",
+                        "desc": "Rejei\u00e7\u00e3o em Fib e busca por nova m\u00e1xima",
+                        "prob": "40%"
+                    },
+                    {
+                        "name": "Sideways",
+                        "desc": "Lateraliza\u00e7\u00e3o t\u00e9cnica no range",
+                        "prob": "35%"
+                    },
+                    {
+                        "name": "Correction",
+                        "desc": "Quebra de suporte Fib 0.5",
+                        "prob": "25%"
+                    }
+                ]
+            }
+        }
+    ]
 }
