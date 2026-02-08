@@ -1,0 +1,39 @@
+{
+    "timestamp": 1770523734,
+    "asset": "BTC",
+    "current_price": 68500,
+    "macro": "Neutral-Bullish",
+    "whale_flow": "Accumulation",
+    "fib_levels": {
+        "0.236": 67752.8,
+        "0.382": 64073.6,
+        "0.500": 61100.0,
+        "0.618": 58126.4
+    },
+    "analysis": {
+        "bias": "LONG_BIAS",
+        "probability": 0.65,
+        "cenarios": [
+            {
+                "name": "Cen\u00e1rio 1 (Bullish)",
+                "desc": "Rejei\u00e7\u00e3o em Fib 0.5 e busca por $78k",
+                "prob": "40%"
+            },
+            {
+                "name": "Cen\u00e1rio 2 (Sideways)",
+                "desc": "Lateraliza\u00e7\u00e3o entre $66k e $72k",
+                "prob": "35%"
+            },
+            {
+                "name": "Cen\u00e1rio 3 (Correction)",
+                "desc": "Quebra de Fib 0.5 buscando 0.618 ($58k)",
+                "prob": "20%"
+            },
+            {
+                "name": "Cen\u00e1rio 4 (Black Swan)",
+                "desc": "Fatores macro externos empurram para $52k",
+                "prob": "5%"
+            }
+        ]
+    }
+}
