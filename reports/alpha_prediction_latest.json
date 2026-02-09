@@ -1,11 +1,12 @@
 {
-    "last_update": 1770643054,
+    "last_update": 1770652076,
     "predictions": [
         {
-            "timestamp": 1770643054,
+            "timestamp": 1770652008,
             "asset": "BTC",
             "current_price": 68500,
-            "rsi": 69.91,
+            "rsi": 56.82,
+            "engine": "DeepSeek-R1",
             "precision_score": "88.4%",
             "macro": "Neutral-Bullish",
             "whale_flow": "Accumulation",
@@ -18,30 +19,32 @@
             "analysis": {
                 "bias": "LONG_BIAS",
                 "probability": 0.88,
+                "deep_reasoning": "**Bias:** Neutro com leve inclina\u00e7\u00e3o para altista, dado que o pre\u00e7o est\u00e1 acima do n\u00edvel de Fibonacci 0.236 e o RSI est\u00e1 em territ\u00f3rio neutro, mas acima de 50. No entanto, a confirma\u00e7\u00e3o de uma tend\u00eancia de alta requer rompimento de resist\u00eancias superiores.\n\n**Probabilidade de Alta (0.0\u20131.0):** 0.55 \u2013 Indica uma leve vantagem para cen\u00e1rios de alta, mas com incerteza significativa devido \u00e0 proximidade do n\u00edvel-chave de Fibonacci e RSI neutro.\n\n---\n\n### Cen\u00e1rios Curtos:\n\n1. **Cen\u00e1rio Altista (Recupe",
                 "cenarios": [
                     {
                         "name": "Bullish",
-                        "desc": "Rejei\u00e7\u00e3o em Fib e RSI < 70",
-                        "prob": "45%"
+                        "desc": "Retomada via R1 Insight",
+                        "prob": "50%"
                     },
                     {
                         "name": "Sideways",
-                        "desc": "RSI esfriando no range central",
+                        "desc": "Consolida\u00e7\u00e3o de Range",
                         "prob": "30%"
                     },
                     {
                         "name": "Correction",
-                        "desc": "RSI sobrecomprado for\u00e7ando pullback",
-                        "prob": "25%"
+                        "desc": "Pullback t\u00e9cnico",
+                        "prob": "20%"
                     }
                 ]
             }
         },
         {
-            "timestamp": 1770643054,
+            "timestamp": 1770652050,
             "asset": "ETH",
             "current_price": 2650,
-            "rsi": 46.14,
+            "rsi": 62.15,
+            "engine": "DeepSeek-R1",
             "precision_score": "88.4%",
             "macro": "Neutral-Bullish",
             "whale_flow": "Accumulation",
@@ -54,30 +57,32 @@
             "analysis": {
                 "bias": "LONG_BIAS",
                 "probability": 0.88,
+                "deep_reasoning": "Com base nos dados fornecidos, a an\u00e1lise institucional indica o seguinte:\n\n**Bias:** Levemente Altista  \n**Probabilidade de Alta (teste de 2711.2):** 0.6  \n\n**Cen\u00e1rios:**  \n1. **Rompimento Altista:** O pre\u00e7o supera a resist\u00eancia em 2711.2 (Fibo 0.236) e avan\u00e7a para 2800+, com RSI entrando em territ\u00f3rio de sobrecompra (>70). *Probabilidade: 0.4*  \n2. **Consolida\u00e7\u00e3o Lateral:** O pre\u00e7o oscila entre o suporte de 2594.4 (Fibo 0.382) e a resist\u00eancia de 2711.2, com RSI mantendo-se entre 40-60. *Probabi",
                 "cenarios": [
                     {
                         "name": "Bullish",
-                        "desc": "Rejei\u00e7\u00e3o em Fib e RSI < 70",
-                        "prob": "45%"
+                        "desc": "Retomada via R1 Insight",
+                        "prob": "50%"
                     },
                     {
                         "name": "Sideways",
-                        "desc": "RSI esfriando no range central",
+                        "desc": "Consolida\u00e7\u00e3o de Range",
                         "prob": "30%"
                     },
                     {
                         "name": "Correction",
-                        "desc": "RSI sobrecomprado for\u00e7ando pullback",
-                        "prob": "25%"
+                        "desc": "Pullback t\u00e9cnico",
+                        "prob": "20%"
                     }
                 ]
             }
         },
         {
-            "timestamp": 1770643054,
+            "timestamp": 1770652076,
             "asset": "BNB",
             "current_price": 590,
-            "rsi": 54.68,
+            "rsi": 65.76,
+            "engine": "DeepSeek-R1",
             "precision_score": "88.4%",
             "macro": "Neutral-Bullish",
             "whale_flow": "Accumulation",
@@ -90,21 +95,22 @@
             "analysis": {
                 "bias": "LONG_BIAS",
                 "probability": 0.88,
+                "deep_reasoning": "**An\u00e1lise Institucional - BNB**\n\n**Dados Fornecidos:**\n- Pre\u00e7o Atual: $590\n- RSI: 65.76 (Neutro-Alto, leve sobrecompra)\n- N\u00edveis Fibonacci: \n  - Resist\u00eancia: $604.04 (0.236)\n  - Suporte Pr\u00f3ximo: $587.98 (0.382)\n  - Suporte M\u00e9dio: $575.00 (0.500)\n  - Suporte Forte: $562.02 (0.618)\n\n**Vi\u00e9s (Bias): Neutro com Tend\u00eancia de Alta**\nO pre\u00e7o est\u00e1 entre dois n\u00edveis Fibonacci chave ($587.98 e $604.04), com RSI indicando momentum positivo mas n\u00e3o extremo. A proximidade com a resist\u00eancia de $604 sugere caut",
                 "cenarios": [
                     {
                         "name": "Bullish",
-                        "desc": "Rejei\u00e7\u00e3o em Fib e RSI < 70",
-                        "prob": "45%"
+                        "desc": "Retomada via R1 Insight",
+                        "prob": "50%"
                     },
                     {
                         "name": "Sideways",
-                        "desc": "RSI esfriando no range central",
+                        "desc": "Consolida\u00e7\u00e3o de Range",
                         "prob": "30%"
                     },
                     {
                         "name": "Correction",
-                        "desc": "RSI sobrecomprado for\u00e7ando pullback",
-                        "prob": "25%"
+                        "desc": "Pullback t\u00e9cnico",
+                        "prob": "20%"
                     }
                 ]
             }
