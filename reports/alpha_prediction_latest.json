@@ -1,8 +1,8 @@
 {
-    "last_update": 1770616801,
+    "last_update": 1770638402,
     "predictions": [
         {
-            "timestamp": 1770616801,
+            "timestamp": 1770638402,
             "asset": "BTC",
             "current_price": 68500,
             "precision_score": "88.4%",
@@ -37,7 +37,7 @@
             }
         },
         {
-            "timestamp": 1770616801,
+            "timestamp": 1770638402,
             "asset": "ETH",
             "current_price": 2650,
             "precision_score": "88.4%",
@@ -72,7 +72,7 @@
             }
         },
         {
-            "timestamp": 1770616801,
+            "timestamp": 1770638402,
             "asset": "BNB",
             "current_price": 590,
             "precision_score": "88.4%",
