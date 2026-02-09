@@ -1,10 +1,11 @@
 {
-    "last_update": 1770638402,
+    "last_update": 1770643054,
     "predictions": [
         {
-            "timestamp": 1770638402,
+            "timestamp": 1770643054,
             "asset": "BTC",
             "current_price": 68500,
+            "rsi": 69.91,
             "precision_score": "88.4%",
             "macro": "Neutral-Bullish",
             "whale_flow": "Accumulation",
@@ -16,30 +17,31 @@
             },
             "analysis": {
                 "bias": "LONG_BIAS",
-                "probability": 0.65,
+                "probability": 0.88,
                 "cenarios": [
                     {
                         "name": "Bullish",
-                        "desc": "Rejei\u00e7\u00e3o em Fib e busca por nova m\u00e1xima",
-                        "prob": "40%"
+                        "desc": "Rejei\u00e7\u00e3o em Fib e RSI < 70",
+                        "prob": "45%"
                     },
                     {
                         "name": "Sideways",
-                        "desc": "Lateraliza\u00e7\u00e3o t\u00e9cnica no range",
-                        "prob": "35%"
+                        "desc": "RSI esfriando no range central",
+                        "prob": "30%"
                     },
                     {
                         "name": "Correction",
-                        "desc": "Quebra de suporte Fib 0.5",
+                        "desc": "RSI sobrecomprado for\u00e7ando pullback",
                         "prob": "25%"
                     }
                 ]
             }
         },
         {
-            "timestamp": 1770638402,
+            "timestamp": 1770643054,
             "asset": "ETH",
             "current_price": 2650,
+            "rsi": 46.14,
             "precision_score": "88.4%",
             "macro": "Neutral-Bullish",
             "whale_flow": "Accumulation",
@@ -51,30 +53,31 @@
             },
             "analysis": {
                 "bias": "LONG_BIAS",
-                "probability": 0.65,
+                "probability": 0.88,
                 "cenarios": [
                     {
                         "name": "Bullish",
-                        "desc": "Rejei\u00e7\u00e3o em Fib e busca por nova m\u00e1xima",
-                        "prob": "40%"
+                        "desc": "Rejei\u00e7\u00e3o em Fib e RSI < 70",
+                        "prob": "45%"
                     },
                     {
                         "name": "Sideways",
-                        "desc": "Lateraliza\u00e7\u00e3o t\u00e9cnica no range",
-                        "prob": "35%"
+                        "desc": "RSI esfriando no range central",
+                        "prob": "30%"
                     },
                     {
                         "name": "Correction",
-                        "desc": "Quebra de suporte Fib 0.5",
+                        "desc": "RSI sobrecomprado for\u00e7ando pullback",
                         "prob": "25%"
                     }
                 ]
             }
         },
         {
-            "timestamp": 1770638402,
+            "timestamp": 1770643054,
             "asset": "BNB",
             "current_price": 590,
+            "rsi": 54.68,
             "precision_score": "88.4%",
             "macro": "Neutral-Bullish",
             "whale_flow": "Accumulation",
@@ -86,21 +89,21 @@
             },
             "analysis": {
                 "bias": "LONG_BIAS",
-                "probability": 0.65,
+                "probability": 0.88,
                 "cenarios": [
                     {
                         "name": "Bullish",
-                        "desc": "Rejei\u00e7\u00e3o em Fib e busca por nova m\u00e1xima",
-                        "prob": "40%"
+                        "desc": "Rejei\u00e7\u00e3o em Fib e RSI < 70",
+                        "prob": "45%"
                     },
                     {
                         "name": "Sideways",
-                        "desc": "Lateraliza\u00e7\u00e3o t\u00e9cnica no range",
-                        "prob": "35%"
+                        "desc": "RSI esfriando no range central",
+                        "prob": "30%"
                     },
                     {
                         "name": "Correction",
-                        "desc": "Quebra de suporte Fib 0.5",
+                        "desc": "RSI sobrecomprado for\u00e7ando pullback",
                         "prob": "25%"
                     }
                 ]
