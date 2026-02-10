@@ -1,13 +1,13 @@
 {
-    "last_update": 1770659457,
+    "last_update": 1770681994,
     "predictions": [
         {
-            "timestamp": 1770659394,
+            "timestamp": 1770681994,
             "asset": "BTC",
             "current_price": 68500,
-            "rsi": 44.09,
-            "engine": "DeepSeek-R1",
-            "precision_score": "88.4%",
+            "rsi": 58.5,
+            "engine": "Local-Fallback",
+            "precision_score": "75.0%",
             "macro": "Neutral-Bullish",
             "whale_flow": "Accumulation",
             "fib_levels": {
@@ -17,18 +17,18 @@
                 "0.618": 58126.4
             },
             "analysis": {
-                "bias": "WAIT",
-                "probability": 0.0,
-                "deep_reasoning": "Analysing...",
+                "bias": "LONG_BIAS",
+                "probability": 0.75,
+                "deep_reasoning": "API timeout - usando an\u00e1lise local",
                 "cenarios": [
                     {
                         "name": "Bullish",
-                        "desc": "Retomada via R1 Insight",
+                        "desc": "Retomada gradual",
                         "prob": "50%"
                     },
                     {
                         "name": "Sideways",
-                        "desc": "Consolida\u00e7\u00e3o de Range",
+                        "desc": "Consolida\u00e7\u00e3o",
                         "prob": "30%"
                     },
                     {
@@ -40,12 +40,12 @@
             }
         },
         {
-            "timestamp": 1770659419,
+            "timestamp": 1770681994,
             "asset": "ETH",
             "current_price": 2650,
-            "rsi": 56.47,
-            "engine": "DeepSeek-R1",
-            "precision_score": "88.4%",
+            "rsi": 58.5,
+            "engine": "Local-Fallback",
+            "precision_score": "75.0%",
             "macro": "Neutral-Bullish",
             "whale_flow": "Accumulation",
             "fib_levels": {
@@ -55,18 +55,18 @@
                 "0.618": 2405.6
             },
             "analysis": {
-                "bias": "SHORT_BIAS",
-                "probability": 0.45,
-                "deep_reasoning": "**Vi\u00e9s (Bias):** Neutro com leve inclina\u00e7\u00e3o para alta. O pre\u00e7o est\u00e1 acima do n\u00edvel de Fibonacci 0.382 (2594.4), e o RSI acima de 50 sugere momentum positivo, mas a resist\u00eancia pr\u00f3xima em 2711.2 (Fibo 0.236) limita o otimismo.\n\n**Probabilidade de alta (0.0\u20131.0):** 0.60  \n*(Baseado na posi\u00e7\u00e3o acima da m\u00e9dia de Fibonacci e RSI favor\u00e1vel, mas sem rompimento decisivo da resist\u00eancia-chave.)*\n\n### Tr\u00eas Cen\u00e1rios Curtos:\n1. **Cen\u00e1rio Altista (Rompimento):**  \n   Pre\u00e7o supera 2711.2 com volume, mirando 28",
+                "bias": "LONG_BIAS",
+                "probability": 0.75,
+                "deep_reasoning": "API timeout - usando an\u00e1lise local",
                 "cenarios": [
                     {
                         "name": "Bullish",
-                        "desc": "Retomada via R1 Insight",
+                        "desc": "Retomada gradual",
                         "prob": "50%"
                     },
                     {
                         "name": "Sideways",
-                        "desc": "Consolida\u00e7\u00e3o de Range",
+                        "desc": "Consolida\u00e7\u00e3o",
                         "prob": "30%"
                     },
                     {
@@ -78,12 +78,12 @@
             }
         },
         {
-            "timestamp": 1770659457,
+            "timestamp": 1770681994,
             "asset": "BNB",
             "current_price": 590,
-            "rsi": 30.31,
-            "engine": "DeepSeek-R1",
-            "precision_score": "88.4%",
+            "rsi": 58.5,
+            "engine": "Local-Fallback",
+            "precision_score": "75.0%",
             "macro": "Neutral-Bullish",
             "whale_flow": "Accumulation",
             "fib_levels": {
@@ -94,17 +94,17 @@
             },
             "analysis": {
                 "bias": "LONG_BIAS",
-                "probability": 0.88,
-                "deep_reasoning": "Com base nos dados fornecidos, segue a an\u00e1lise institucional para BNB:\n\n---\n\n### **Bias (Vi\u00e9s)**\n**Levemente Altista no Curto Prazo**  \nO pre\u00e7o atual (590) est\u00e1 pr\u00f3ximo do n\u00edvel de Fibonacci de 0.382 (587.98), que atua como suporte din\u00e2mico. O RSI em 30.31 indica condi\u00e7\u00f5es de **sobrevenda**, sugerindo potencial exaust\u00e3o das vendas e possibilidade de revers\u00e3o ou al\u00edvio t\u00e9cnico.\n\n---\n\n### **Probabilidade de Alta (Pr\u00f3ximas Movimenta\u00e7\u00f5es)**\n**0.65** (65%)  \nA probabilidade \u00e9 moderadamente alta, cons",
+                "probability": 0.75,
+                "deep_reasoning": "API timeout - usando an\u00e1lise local",
                 "cenarios": [
                     {
                         "name": "Bullish",
-                        "desc": "Retomada via R1 Insight",
+                        "desc": "Retomada gradual",
                         "prob": "50%"
                     },
                     {
                         "name": "Sideways",
-                        "desc": "Consolida\u00e7\u00e3o de Range",
+                        "desc": "Consolida\u00e7\u00e3o",
                         "prob": "30%"
                     },
                     {
