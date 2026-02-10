@@ -1,25 +1,25 @@
 {
-    "last_update": 1770703457,
+    "last_update": 1770724951,
     "predictions": [
         {
-            "timestamp": 1770703457,
+            "timestamp": 1770724951,
             "asset": "BTC",
             "current_price": 68500,
-            "rsi": 55.5,
+            "rsi": 48.97,
             "engine": "DeepSeek-R1",
             "precision_score": "88.4%",
             "macro": "Neutral-Bullish",
             "whale_flow": "Accumulation",
             "fib_levels": {
-                "0.236": 65000,
-                "0.382": 62000,
-                "0.500": 59000,
-                "0.618": 56000
+                "0.236": 60000,
+                "0.382": 58000,
+                "0.500": 56000,
+                "0.618": 54000
             },
             "analysis": {
                 "bias": "LONG_BIAS",
                 "probability": 0.88,
-                "deep_reasoning": "API timeout simulated",
+                "deep_reasoning": "API fallback",
                 "cenarios": [
                     {
                         "name": "Bullish",
@@ -40,24 +40,24 @@
             }
         },
         {
-            "timestamp": 1770703457,
+            "timestamp": 1770724951,
             "asset": "ETH",
             "current_price": 2650,
-            "rsi": 55.5,
+            "rsi": 30.86,
             "engine": "DeepSeek-R1",
             "precision_score": "88.4%",
             "macro": "Neutral-Bullish",
             "whale_flow": "Accumulation",
             "fib_levels": {
-                "0.236": 65000,
-                "0.382": 62000,
-                "0.500": 59000,
-                "0.618": 56000
+                "0.236": 60000,
+                "0.382": 58000,
+                "0.500": 56000,
+                "0.618": 54000
             },
             "analysis": {
                 "bias": "LONG_BIAS",
                 "probability": 0.88,
-                "deep_reasoning": "API timeout simulated",
+                "deep_reasoning": "API fallback",
                 "cenarios": [
                     {
                         "name": "Bullish",
@@ -78,24 +78,24 @@
             }
         },
         {
-            "timestamp": 1770703457,
+            "timestamp": 1770724951,
             "asset": "BNB",
             "current_price": 590,
-            "rsi": 55.5,
+            "rsi": 63.78,
             "engine": "DeepSeek-R1",
             "precision_score": "88.4%",
             "macro": "Neutral-Bullish",
             "whale_flow": "Accumulation",
             "fib_levels": {
-                "0.236": 65000,
-                "0.382": 62000,
-                "0.500": 59000,
-                "0.618": 56000
+                "0.236": 60000,
+                "0.382": 58000,
+                "0.500": 56000,
+                "0.618": 54000
             },
             "analysis": {
                 "bias": "LONG_BIAS",
                 "probability": 0.88,
-                "deep_reasoning": "API timeout simulated",
+                "deep_reasoning": "API fallback",
                 "cenarios": [
                     {
                         "name": "Bullish",
