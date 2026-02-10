@@ -1,29 +1,29 @@
 {
-    "last_update": 1770724951,
+    "last_update": 1770746535,
     "predictions": [
         {
-            "timestamp": 1770724951,
+            "timestamp": 1770746535,
             "asset": "BTC",
             "current_price": 68500,
-            "rsi": 48.97,
-            "engine": "DeepSeek-R1",
-            "precision_score": "88.4%",
+            "rsi": 47.09,
+            "engine": "Local-Logic",
+            "precision_score": "85.2%",
             "macro": "Neutral-Bullish",
             "whale_flow": "Accumulation",
             "fib_levels": {
-                "0.236": 60000,
-                "0.382": 58000,
-                "0.500": 56000,
-                "0.618": 54000
+                "0.236": 67752.8,
+                "0.382": 64073.6,
+                "0.500": 61100.0,
+                "0.618": 58126.4
             },
             "analysis": {
                 "bias": "LONG_BIAS",
                 "probability": 0.88,
-                "deep_reasoning": "API fallback",
+                "deep_reasoning": "An\u00e1lise local baseada em Fibonacci e RSI",
                 "cenarios": [
                     {
                         "name": "Bullish",
-                        "desc": "Retomada via R1 Insight",
+                        "desc": "Retomada t\u00e9cnica",
                         "prob": "50%"
                     },
                     {
@@ -40,28 +40,28 @@
             }
         },
         {
-            "timestamp": 1770724951,
+            "timestamp": 1770746535,
             "asset": "ETH",
             "current_price": 2650,
-            "rsi": 30.86,
-            "engine": "DeepSeek-R1",
-            "precision_score": "88.4%",
+            "rsi": 33.05,
+            "engine": "Local-Logic",
+            "precision_score": "85.2%",
             "macro": "Neutral-Bullish",
             "whale_flow": "Accumulation",
             "fib_levels": {
-                "0.236": 60000,
-                "0.382": 58000,
-                "0.500": 56000,
-                "0.618": 54000
+                "0.236": 2711.2,
+                "0.382": 2594.4,
+                "0.500": 2500.0,
+                "0.618": 2405.6
             },
             "analysis": {
                 "bias": "LONG_BIAS",
                 "probability": 0.88,
-                "deep_reasoning": "API fallback",
+                "deep_reasoning": "An\u00e1lise local baseada em Fibonacci e RSI",
                 "cenarios": [
                     {
                         "name": "Bullish",
-                        "desc": "Retomada via R1 Insight",
+                        "desc": "Retomada t\u00e9cnica",
                         "prob": "50%"
                     },
                     {
@@ -78,28 +78,28 @@
             }
         },
         {
-            "timestamp": 1770724951,
+            "timestamp": 1770746535,
             "asset": "BNB",
             "current_price": 590,
-            "rsi": 63.78,
-            "engine": "DeepSeek-R1",
-            "precision_score": "88.4%",
+            "rsi": 74.86,
+            "engine": "Local-Logic",
+            "precision_score": "85.2%",
             "macro": "Neutral-Bullish",
             "whale_flow": "Accumulation",
             "fib_levels": {
-                "0.236": 60000,
-                "0.382": 58000,
-                "0.500": 56000,
-                "0.618": 54000
+                "0.236": 604.04,
+                "0.382": 587.98,
+                "0.500": 575.0,
+                "0.618": 562.02
             },
             "analysis": {
                 "bias": "LONG_BIAS",
                 "probability": 0.88,
-                "deep_reasoning": "API fallback",
+                "deep_reasoning": "An\u00e1lise local baseada em Fibonacci e RSI",
                 "cenarios": [
                     {
                         "name": "Bullish",
-                        "desc": "Retomada via R1 Insight",
+                        "desc": "Retomada t\u00e9cnica",
                         "prob": "50%"
                     },
                     {
