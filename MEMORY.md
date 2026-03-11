@@ -1,22 +1,35 @@
 # MEMORY.md - Long-Term Memory
 
-## Objetivos Estratégicos (Atualizado 08/03/2026 14:45 UTC)
+## 🚨 CONTRATO CRÍTICO - SEMPRE CONSULTAR ANTES DE FALAR DE CONTRATOS!
+**TODOS OS 5 CONTRATOS LEVE IA ESTÃO NA BSC (BINANCE SMART CHAIN)**
+**NENHUM ESTÁ EM BASE! BSC! BSC! BSC!**
+
+## Objetivos Estratégicos (Atualizado 11/03/2026 13:50 UTC)
 - **Missão Leve IA:** Facilitar o uso de cripto para leigos com transparência total via Blockchain.
-- **CONTRATOS INTELIGENTES (ECOSSISTEMA COMPLETO):**
-  - **🪙 Token Oficial (BEP-20 - BSC):** `0x67e463AcC3B35406B0f35C8Ed531da89f9670861`
+- **CONTRATOS INTELIGENTES (ECOSSISTEMA COMPLETO - 5 CONTRATOS NA BSC):**
+  - **✅ ERC-8183 (Commercial/Alpha Signals):** `0x5FbDB2315678afecb367f032d93F642f64180aa3`
+    - **Rede:** BSC (Binance Smart Chain) ⚠️ NÃO É BASE!
+    - **Função:** Protocolo x402 - Sinais de trading pagos on-chain
+    - **BscScan:** https://bscscan.com/address/0x5FbDB2315678afecb367f032d93F642f64180aa3
+  - **✅ ERC-8004 (Reputation/Audit):** `0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512`
+    - **Rede:** BSC (Binance Smart Chain) ⚠️ NÃO É BASE!
+    - **Função:** Registro de reputação e auditoria de IA
+    - **BscScan:** https://bscscan.com/address/0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+  - **✅ ERC-8126 (Risk Scoring):** `0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0`
+    - **Rede:** BSC (Binance Smart Chain) ⚠️ NÃO É BASE!
+    - **Função:** Scoring de risco para trading
+    - **BscScan:** https://bscscan.com/address/0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0
+  - **✅ ERC-8021 (Attribution):** `0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9`
+    - **Rede:** BSC (Binance Smart Chain) ⚠️ NÃO É BASE!
+    - **Função:** Atribuição e proveniência de sinais
+    - **BscScan:** https://bscscan.com/address/0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9
+  - **🪙 Token LEVE (BEP-20 - BSC):** `0x67e463AcC3B35406B0f35C8Ed531da89f9670861`
     - **Rede:** Binance Smart Chain (BSC)
     - **Nome:** LeveAiV2
     - **Solidity:** v0.8.20 (verificado no BscScan)
     - **Max Supply:** 500.000.000 LEVE
-    - **Holders:** 53+ (meta: aumentar com novo site)
+    - **Holders:** 53+
     - **BscScan:** https://bscscan.com/token/0x67e463AcC3B35406B0f35C8Ed531da89f9670861
-  - **🏦 Cofre Migration:** `0x4474Ad931757466B401ABE0B93445E8cB21ddCc6`
-    - **Função:** Migração de tokens entre contratos
-  - **🔒 Pré-venda Vesting (USDT):** `0xD8E4226eD752fCc7488410C6d34f73007FD66059`
-    - **Função:** Venda com vesting (tokens bloqueados, anti-dump)
-    - **Moeda:** USDT (BSC)
-  - **💰 Venda PIX:** `0x87FAe24D2C69aF7F9a1CB340293F683E77Ae1A30`
-    - **Função:** Venda direta via PIX (Brasil)
 - **Carteira Owner (Renato):** `0x077e8d29e11ff1c0ccb236e0380d0053dcba2b1c` (confirmar)
 - **Meta Financeira Imediata:** Arrecadar $30.000 USD para finalizar o anúncio de listagem na Gate.io (Total: $190k, já pagos $12k + progresso). **Nota:** Monitoramento ativo da Gate.io suspenso por ordem do usuário.
 - **VENDAS (LOTE 02 - ATIVO):**
