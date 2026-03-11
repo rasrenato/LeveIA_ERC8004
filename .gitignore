@@ -1,0 +1,28 @@
+# Environment files with secrets
+.env
+.env.*
+!.env.example
+
+# Coverage reports
+.coverage/
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Node modules (if applicable)
+node_modules/
+
+# OpenClaw runtime
+.openclaw/runtime/
