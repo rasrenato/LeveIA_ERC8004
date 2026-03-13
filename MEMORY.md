@@ -4,31 +4,55 @@
 **TODOS OS 5 CONTRATOS LEVE IA ESTÃO NA BSC (BINANCE SMART CHAIN)**
 **NENHUM ESTÁ EM BASE! BSC! BSC! BSC!**
 
-## Objetivos Estratégicos (Atualizado 11/03/2026 13:50 UTC)
+## 🎯 VALIDAÇÃO COINBASE - ERC-8004 (2026-03-12 23:51 UTC)
+**Coinbase Institutional Research publicou sobre ERC-8004:**
+- **Título:** "Trustless Agents" protocol
+- **Data:** Ethereum mainnet deploy 29-Jan-2026
+- **Tração:** 22.9k registros em 3 dias (13.7k dia 1, 8.1k dia 2, 1.2k dia 3)
+- **Base L2:** 12k daily events no pico
+- **Use Case:** AI agents vetting other agents before transactions
+- **Identity:** Agentes como NFTs únicos (ERC-721)
+- **Reputation:** "FICO score pra IA" - tracking público de agentes
+- **Validation:** Prova de execução sem revelar info proprietária
+
+**Leve IA usa EXATAMENTE este padrão na BSC!**
+**Isso valida nossa escolha de arquitetura.**
+**Usar no pitch Gate.io e marketing.**
+
+## Objetivos Estratégicos (Atualizado 12/03/2026 15:38 UTC - DEPLOY COMPLETO!)
 - **Missão Leve IA:** Facilitar o uso de cripto para leigos com transparência total via Blockchain.
 - **CONTRATOS INTELIGENTES (ECOSSISTEMA COMPLETO - 5 CONTRATOS NA BSC):**
-  - **✅ ERC-8183 (Commercial/Alpha Signals):** `0x5FbDB2315678afecb367f032d93F642f64180aa3`
+  - **✅ ERC-8183 (Commercial/Alpha Signals):** `0xcf0520e60ad602454f06Cd80f588634A332d169d`
     - **Rede:** BSC (Binance Smart Chain) ⚠️ NÃO É BASE!
     - **Função:** Protocolo x402 - Sinais de trading pagos on-chain
-    - **BscScan:** https://bscscan.com/address/0x5FbDB2315678afecb367f032d93F642f64180aa3
-  - **✅ ERC-8004 (Reputation/Audit):** `0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512`
+    - **BscScan:** https://bscscan.com/address/0xcf0520e60ad602454f06Cd80f588634A332d169d
+    - **Deploy:** 2026-03-12 15:37 UTC
+  - **✅ ERC-8004 (Reputation/Audit):** `0x2A0Af7fA4e8A39bF7B34201CdDba8faed88C27c2`
     - **Rede:** BSC (Binance Smart Chain) ⚠️ NÃO É BASE!
     - **Função:** Registro de reputação e auditoria de IA
-    - **BscScan:** https://bscscan.com/address/0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
-  - **✅ ERC-8126 (Risk Scoring):** `0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0`
+    - **BscScan:** https://bscscan.com/address/0x2A0Af7fA4e8A39bF7B34201CdDba8faed88C27c2
+    - **Deploy:** 2026-03-12 15:37 UTC
+  - **✅ ERC-8126 (Risk Scoring):** `0x1d693286CE314fE7dEB26AeDcA3DF7f45F386133`
     - **Rede:** BSC (Binance Smart Chain) ⚠️ NÃO É BASE!
     - **Função:** Scoring de risco para trading
-    - **BscScan:** https://bscscan.com/address/0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0
-  - **✅ ERC-8021 (Attribution):** `0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9`
+    - **BscScan:** https://bscscan.com/address/0x1d693286CE314fE7dEB26AeDcA3DF7f45F386133
+    - **Deploy:** 2026-03-12 15:37 UTC
+  - **✅ ERC-8021 (Attribution):** `0x9e5100EF4Dd701d59aeaF95C89403308cc6dF368`
     - **Rede:** BSC (Binance Smart Chain) ⚠️ NÃO É BASE!
     - **Função:** Atribuição e proveniência de sinais
-    - **BscScan:** https://bscscan.com/address/0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9
+    - **BscScan:** https://bscscan.com/address/0x9e5100EF4Dd701d59aeaF95C89403308cc6dF368
+    - **Deploy:** 2026-03-12 15:37 UTC
+  - **✅ VestingGateIO (Gate.io Vesting):** `0x5798bbECAF20E013718bd89Ef7339b5Ae3643Ff1`
+    - **Rede:** BSC (Binance Smart Chain) ⚠️ NÃO É BASE!
+    - **Função:** Vesting para Gate.io listing
+    - **BscScan:** https://bscscan.com/address/0x5798bbECAF20E013718bd89Ef7339b5Ae3643Ff1
+    - **Deploy:** 2026-03-12 15:37 UTC
   - **🪙 Token LEVE (BEP-20 - BSC):** `0x67e463AcC3B35406B0f35C8Ed531da89f9670861`
     - **Rede:** Binance Smart Chain (BSC)
     - **Nome:** LeveAiV2
     - **Solidity:** v0.8.20 (verificado no BscScan)
     - **Max Supply:** 500.000.000 LEVE
-    - **Holders:** 53+
+    - **Holders:** 53+ 🚀
     - **BscScan:** https://bscscan.com/token/0x67e463AcC3B35406B0f35C8Ed531da89f9670861
 - **Carteira Owner (Renato):** `0x077e8d29e11ff1c0ccb236e0380d0053dcba2b1c` (confirmar)
 - **Meta Financeira Imediata:** Arrecadar $30.000 USD para finalizar o anúncio de listagem na Gate.io (Total: $190k, já pagos $12k + progresso). **Nota:** Monitoramento ativo da Gate.io suspenso por ordem do usuário.

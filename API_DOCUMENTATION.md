@@ -2,7 +2,7 @@
 
 ## 🚀 Overview
 
-Leve IA Alpha Signals API provides real-time BTC, ETH, and BNB predictions via x402 pay-per-use protocol on Base network.
+Leve IA Alpha Signals API provides real-time BTC, ETH, and BNB predictions via x402 pay-per-use protocol on BSC (Binance Smart Chain).
 
 **Base URL:** `https://api.coinmarketleve.com`
 
@@ -10,7 +10,7 @@ Leve IA Alpha Signals API provides real-time BTC, ETH, and BNB predictions via x
 
 **Merchant Wallet:** `0x077e8d29e11ff1c0ccb236e0380d0053dcba2b1c`
 
-**Network:** Base (Ethereum L2)
+**Network:** BSC (Binance Smart Chain) - Chain ID: 56
 
 ## 📡 Endpoints
 
@@ -27,7 +27,7 @@ GET /
   "description": "Venda de sinais do Alpha Engine usando protocolo x402",
   "price": "$0.1 USDC",
   "wallet": "0x077e8d29e11ff1c0ccb236e0380d0053dcba2b1c",
-  "network": "Base"
+  "network": "BSC (Binance Smart Chain)"
 }
 ```
 
@@ -76,7 +76,8 @@ POST /alpha-prediction
 **Payment Requirements:**
 - Amount: ≥ $0.10 USDC
 - Destination: `0x077e8d29e11ff1c0ccb236e0380d0053dcba2b1c`
-- Network: Base
+- Network: BSC (Binance Smart Chain)
+- Token: USDT (BEP-20) - Contract: `0x55d398326f99059fF775485246999027B3197955`
 - Time window: Within last 5 minutes
 
 **Response (Success):**
@@ -131,11 +132,11 @@ POST /alpha-prediction
 
 ## 💰 Payment Flow
 
-### Step 1: Send USDC Payment
-Send ≥ $0.10 USDC to the merchant wallet on Base network:
+### Step 1: Send USDT Payment
+Send ≥ $0.10 USDT to the merchant wallet on BSC network:
 - **Wallet:** `0x077e8d29e11ff1c0ccb236e0380d0053dcba2b1c`
-- **Network:** Base
-- **Token:** USDC (Contract: `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`)
+- **Network:** BSC (Binance Smart Chain)
+- **Token:** USDT (BEP-20) - Contract: `0x55d398326f99059fF775485246999027B3197955`
 
 ### Step 2: Call API with Payment Proof
 ```bash
@@ -213,9 +214,12 @@ async function getAlphaPredictions(txHash, userAddress) {
 ## 🔗 Links
 
 - **Interactive Documentation:** https://api.coinmarketleve.com/docs
-- **Dashboard:** https://coinmarketleve.com
-- **GitHub:** https://github.com/rasrenato/LeveIA_ERC8004 (Private)
-- **ERC-8004 Contract:** `0x2333cBC71805b47D64C2867Ef66682c7257B5D4f`
+- **Dashboard:** https://app.leve.app.br
+- **GitHub:** https://github.com/rasrenato/LeveIA_ERC8004
+- **Official Contracts:** See CONTRATOS_OFICIAIS.md
+- **All Contracts on BSC:** https://bscscan.com
+
+**⚠️ IMPORTANT:** All contracts are deployed on BSC (Chain ID: 56), NOT on Base or Ethereum.
 
 ## 📞 Support
 
@@ -223,6 +227,22 @@ For API issues or questions, contact @rasrenato on Telegram.
 
 ---
 
-**Last Updated:** February 12, 2026  
+**Last Updated:** March 13, 2026  
 **API Version:** 1.0.0  
+**Network:** BSC (Binance Smart Chain) - Chain ID: 56  
 **Precision:** 88.4% (verified on-chain via ERC-8004)
+
+---
+
+## 📋 OFFICIAL CONTRACT ADDRESSES (BSC)
+
+**For the complete and up-to-date list of all 6 contracts, see:** `/root/openclaw/CONTRATOS_OFICIAIS.md`
+
+| Contract | Address |
+|----------|---------|
+| ERC-8183 (Alpha Signals) | `0xcf0520e60ad602454f06Cd80f588634A332d169d` |
+| ERC-8004 (Reputation) | `0x2A0Af7fA4e8A39bF7B34201CdDba8faed88C27c2` |
+| ERC-8126 (Risk Scoring) | `0x1d693286CE314fE7dEB26AeDcA3DF7f45F386133` |
+| ERC-8021 (Attribution) | `0x9e5100EF4Dd701d59aeaF95C89403308cc6dF368` |
+| VestingGateIO | `0x5798bbECAF20E013718bd89Ef7339b5Ae3643Ff1` |
+| Token LEVE | `0x67e463AcC3B35406B0f35C8Ed531da89f9670861` |
