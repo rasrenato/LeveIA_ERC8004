@@ -3,7 +3,8 @@
     { "nome": "Weberson", "whatsapp": "5568992243049", "status": "ativo" },
     { "nome": "Helcio", "whatsapp": "5531988169949", "status": "ativo" },
     { "nome": "Joao", "whatsapp": "351967443258", "status": "ativo" },
-    { "nome": "Julio", "whatsapp": "5521965821439", "status": "ativo", "nota": "Feedback crucial USDC→USDT" }
+    { "nome": "Julio", "whatsapp": "5521965821439", "status": "ativo", "nota": "Feedback crucial USDC→USDT" },
+    { "nome": "Tiago", "whatsapp": "351914034708", "status": "ativo", "nota": "Novo tester onboarding - UX USDT" }
   ],
-  "ultimaAtualizacao": "2026-03-13T10:38:00Z"
+  "ultimaAtualizacao": "2026-03-13T14:21:00Z"
 }
