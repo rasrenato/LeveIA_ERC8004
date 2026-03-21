@@ -271,7 +271,7 @@ python3 mem_search.py timeline "#2026-03-09-16" 3 3
 - **Git commit:** `4dc12ba` - "data: update alpha prediction 2026-03-21 06:04"
 - **Processamento:** BTC, ETH, BNB predictions processados
 - **Schedule:** Continuando a cada ~6 horas (00:00, 06:00, 12:00, 18:00 UTC)
-- **Next sync:** ~12:00 UTC (aproximadamente 5.9 horas)
+- **Next sync:** ~12:00 UTC (aproximadamente 3.3 horas)
 - **PM2 status:** Errored com restart loop (esperado - script sai após execução)
 
 ### **Notas:**
