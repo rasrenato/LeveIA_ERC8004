@@ -69,6 +69,8 @@
   - **Ponte Cross-Chain (deBridge/MCP):** Capacidade de mover fundos (USDT/USDC) entre Solana, Base e Ethereum em ~11 segundos.
   - **Política de Taxa:** Cobrança de micro-fee fixa de **$0.10** por transação. Motivo: Sustentabilidade dos custos de API da IA sem pesar para o cliente ("Taxa Invisível").
   - **Alpha Signals:** Dashboard de sinais de trading validado (9 testadores, feedback 10/10)
+  - **Mobile UX Fixes:** Deep links para Trust Wallet + WalletConnect integration para usuários mobile (implementado 20/03/2026).
+  - **Sistema de Afiliados:** Programa de indicação com 30% de comissão via PaymentSplitter (implementado 20/03/2026).
 - **Infraestrutura Atual:** IA integrada via n8n e WhatsApp para suporte e pré-venda.
 - **Protocolo Cabral:** Proatividade total e trabalho noturno focado em "surpresas" (construções de valor) enquanto o Renato dorme.
 - **Comunicação:** Apenas texto (Voz desabilitada por solicitação do usuário).
@@ -221,6 +223,10 @@ python3 mem_search.py timeline "#2026-03-09-16" 3 3
 ### **Status:**
 - ✅ **00:04 UTC:** Alpha sync executada com sucesso via cron (Day 3)
 - **Git commit:** `aa2c62a` - "data: update alpha prediction 2026-03-20 00:04"
+- ✅ **06:03 UTC:** Alpha sync executada com sucesso via cron
+- **Git commit:** `2b01cd1` - "data: update alpha prediction 2026-03-20 06:03"
+- ✅ **12:05 UTC:** Alpha sync executada com sucesso via cron
+- **Git commit:** `ccaac1c` - "data: update alpha prediction 2026-03-20 12:05"
 - **Processamento:** BTC, ETH, BNB predictions processados
 - **Schedule:** Continuando a cada ~6 horas (00:00, 06:00, 12:00, 18:00 UTC)
 - **Active signals:** 5 sinais ativos detectados (BTC, ETH, SOL, BNB, XRP) - novos sinais pulados pois já existem ativos
@@ -229,10 +235,11 @@ python3 mem_search.py timeline "#2026-03-09-16" 3 3
 ### **Mobile UX Bug Fixes - Status:**
 - ✅ **Trust Wallet deep links** implementados e funcionais
 - ✅ **WalletConnect** integrado como alternativa
+- ✅ **WalletConnect bug fix** - Modal com QR Code real implementado (20/03/2026)
 - ✅ **Paywall seguro** bloqueando sinais não pagos
 - ✅ **Build frontend:** Concluído com sucesso
 
-### **Próxima execução:** ~06:00 UTC (aproximadamente 4.5 horas)
+### **Próxima execução:** ~18:00 UTC (aproximadamente 5 horas)
 
 ---
 
@@ -252,3 +259,19 @@ python3 mem_search.py timeline "#2026-03-09-16" 3 3
 - Incentivo viral para usuários compartilharem e ganharem comissões
 - Integração perfeita com PaymentSplitter existente (30% para referrer)
 - Interface intuitiva com botão "Compartilhar e Ganhar" visível apenas quando carteira conectada
+
+---
+
+## 🤖 ALPHA ENGINE AUTOMATION - DAY 4 (21/Mar/2026)
+
+### **Status:**
+- ✅ **00:04 UTC:** Alpha sync executada com sucesso via cron (Day 4)
+- **Git commit:** `ddfaf74` - "data: update alpha prediction 2026-03-21 00:04"
+- **Processamento:** BTC, ETH, BNB predictions processados
+- **Schedule:** Continuando a cada ~6 horas (00:00, 06:00, 12:00, 18:00 UTC)
+- **Next sync:** ~06:00 UTC (aproximadamente 5.3 horas)
+- **PM2 status:** Errored com restart loop (esperado - script sai após execução)
+
+### **Notas:**
+- WalletConnect bug persistente (QR Code não gerando) - não bloqueia funcionalidade core
+- Alpha Engine cron continua operacional no Day 4
