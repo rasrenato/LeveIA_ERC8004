@@ -273,10 +273,32 @@ python3 mem_search.py timeline "#2026-03-09-16" 3 3
 - **Git commit:** `b960e59` - "data: update alpha prediction 2026-03-21 12:06"
 - **Processamento:** BTC, ETH, BNB predictions processados
 - **Schedule:** Continuando a cada ~6 horas (00:00, 06:00, 12:00, 18:00 UTC)
-- **Next sync:** ~18:00 UTC (aproximadamente 5.5 horas)
+- **Next sync:** ~18:00 UTC (aproximadamente 0.9 horas)
 - **PM2 status:** Errored com restart loop (esperado - script sai após execução)
 
 ### **Notas:**
 - WalletConnect bug persistente (QR Code não gerando) - não bloqueia funcionalidade core
 - Alpha Engine cron continua operacional no Day 4
 - Yield calculator error (division by zero when no active signals) - non-critical
+
+## 🔒 SECURITY AUDIT & STRIPE REMOVAL (21/Mar/2026)
+
+### **Ações realizadas:**
+- ✅ **Stripe live keys removidas** da produção (`/opt/leveclaw/.env` e `deploy.sh`) conforme diretiva "tudo em blockchain nada de pix ou pagamento por meios bancários"
+- ✅ **Auditoria de segurança parcial** realizada (model timeout issues com deepseek-reasoner)
+- ✅ **Backups com chaves Stripe removidos** (.env.backup.*, deploy.sh.backup.*)
+- ✅ **File permissions** protegidas (`.env` → 600)
+- ⚠️ **Legado Stripe**: Código Stripe ainda presente no backend (stripe.js, auth.js, subscriptions.js) - precisa remoção manual futura
+- ⚠️ **Chaves test**: Arquivos contêm chaves Stripe test (sk_test_...) - consideradas de exemplo, mas ideal remover
+
+### **Validação de fluxo blockchain:**
+- ✅ **checkSignalPaid()** implementado corretamente (consulta eventos PaymentSplit na BSC)
+- ✅ **Parâmetro ?ref=** capturado e validado como endereço Ethereum, passado para `payForSignal`
+- ✅ **Paywall "???"** lógica implementada - se `hasPaid` false, campos sensíveis substituídos por "???"
+- ⚠️ **Teste real**: Não foi possível testar fluxo completo devido a autenticação na página
+
+### **Estabilidade dos serviços:**
+- ✅ **Frontend** (`leveclaw-frontend`) - ONLINE (uptime 22h+)
+- ✅ **Backend** (`leveclaw-backend`) - ONLINE (uptime 27h+)
+- ✅ **Alpha Engine cron** ativo (schedule "0 */6 * * *") - última execução OK
+- ✅ **Recursos**: 162G disco disponível, 13G memória disponível
