@@ -25,5 +25,23 @@ temp/
 node_modules/
 
 # OpenClaw runtime
-.openclaw/runtime/
+.openclaw/
 .env.secrets
+.agent_orchestrator
+.claude/
+.clawhub/
+
+# Python caches and envs
+__pycache__/
+*.pyc
+venv/
+venv_*/
+
+# Build/cache artifacts
+cache/
+artifacts/
+
+# Internal memory and local ops
+memory/
+MEMORY.md
+HEARTBEAT.md
