@@ -95,6 +95,17 @@ artifacts/
 reports/alpha_prediction_latest.json
 
 # =========================
+# LeveClaw runtime contamination guard
+# =========================
+leveclaw/**/.env
+leveclaw/**/.env.*
+!leveclaw/**/.env.example
+leveclaw/**/node_modules/
+leveclaw/**/.next/
+leveclaw/**/logs/
+leveclaw/**/*.log
+
+# =========================
 # Optional: bulky media/debug evidence
 # Keep versioned only if explicitly needed
 # =========================
