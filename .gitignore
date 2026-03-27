@@ -106,6 +106,12 @@ leveclaw/**/logs/
 leveclaw/**/*.log
 
 # =========================
+# LeveIA Dashboard contamination guard
+# =========================
+leveia-dashboard/node_modules/
+leveia-dashboard/dist/
+
+# =========================
 # Optional: bulky media/debug evidence
 # Keep versioned only if explicitly needed
 # =========================
