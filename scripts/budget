@@ -1,0 +1,8 @@
+#!/bin/bash
+# Budget Tracker CLI - Atalho para consultar budgets
+# Uso: ./budget [status|check|record|reset] [args]
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BUDGET_TRACKER="$SCRIPT_DIR/../skills/twitter-api/budget_tracker.py"
+
+python3 "$BUDGET_TRACKER" "$@"

@@ -47,6 +47,7 @@ DB_CONFIG = {
     'port': 5432,
     'database': 'leveclaw',
     'user': 'leveclaw_user',
+<<<<<<< HEAD
     'password': 'leveclaw_password'
 }
 
@@ -986,28 +987,6 @@ def generate_signals():
     print("\n✅ Geração concluída!")
     
     return signals_generated
-
-
-def main():
-    """Main entry point."""
-    if len(sys.argv) < 2:
-        print("Uso: python3 alpha_signals_v3.py --generate | --backtest | --status")
-        sys.exit(1)
-    
-    command = sys.argv[1]
-    
-    if command == "--generate":
-        generate_signals()
-    elif command == "--status":
-        print("Feature em implementação...")
-    else:
-        print(f"Comando desconhecido: {command}")
-        sys.exit(1)
-
-
-if __name__ == "__main__":
-    main()
-
 
 
 def main():
