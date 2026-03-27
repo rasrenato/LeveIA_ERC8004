@@ -26,6 +26,9 @@ Define como o repositório deve crescer sem virar lixo operacional.
 ### 6. `ecosystem-audit-matrix.md`
 Consolida a visão executiva do que está ativo, presente, externo, bloqueado, proposto ou ausente.
 
+### 7. `agent-activation-plan.md`
+Define o plano progressivo de ativação da stack de agentes com base na config ativa.
+
 ---
 
 ## Regra
