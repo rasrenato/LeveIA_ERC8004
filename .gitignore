@@ -115,6 +115,7 @@ leveia-dashboard/dist/
 # External embedded repos guard
 # =========================
 aster-mcp/
+leveclaw-python-sdk/
 
 # =========================
 # Optional: bulky media/debug evidence
