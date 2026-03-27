@@ -103,30 +103,19 @@ All contracts deployed on **Binance Smart Chain (BSC)** | Todos os contratos na 
 
 ---
 
-## 📁 Project Structure | Estrutura do Projeto
+## 📁 Repository Shape | Estrutura Atual do Repositório
 
-```
-LeveIA_ERC8004/
-├── README.md                 # This file
-├── LICENSE                   # MIT License
-├── ROADMAP.md                # Development roadmap
-├── docs/                     # Documentation
-│   ├── ARCHITECTURE.md       # System architecture
-│   ├── API.md                # API documentation
-│   ├── CONTRACTS.md          # Smart contracts guide
-│   └── DEPLOYMENT.md         # Deployment guide
-├── erc-8183/                 # Smart contracts
-│   ├── contracts/            # Solidity source code
-│   ├── scripts/              # Deployment scripts
-│   └── test/                 # Contract tests
-├── leveclaw/                 # Next.js Frontend
-│   └── src/
-│       └── app/
-│           └── dashboard/    # Main dashboard
-└── alpha_signals/            # AI Backend
-    ├── alpha_signals_v3.py   # AI signal generator
-    └── api_server.py         # Flask API server
-```
+The repository is being actively curated into institutional, technical and operational layers.
+At this stage, the most reliable references are:
+
+- `docs/official/` → institutional source of truth
+- `alpha_signals/` → AI signal generation and related backend logic
+- `erc-8183/` → smart contract deployment and verification material
+- `contracts/` → selected contract artifacts and Solidity sources
+- `scripts/` → deployment, sync and auxiliary automation scripts
+- `docs/` → technical, operational and historical documentation
+
+**Important:** some directories in this repository are still under sanitation and should not be interpreted as fully curated product-source trees yet.
 
 ---
 
