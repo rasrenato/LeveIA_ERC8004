@@ -9,6 +9,21 @@
 
 ---
 
+## 🏛️ Institutional Reference
+
+For the official institutional layer of this project, start here:
+
+- [`docs/official/README.md`](docs/official/README.md)
+- [`docs/official/institutional-source-of-truth.md`](docs/official/institutional-source-of-truth.md)
+- [`docs/official/official-architecture.md`](docs/official/official-architecture.md)
+- [`docs/official/official-contracts.md`](docs/official/official-contracts.md)
+- [`docs/official/official-agent-stack.md`](docs/official/official-agent-stack.md)
+- [`docs/official/official-repo-governance.md`](docs/official/official-repo-governance.md)
+
+This is the institutional spine for partners, exchanges, diligence and technical review.
+
+---
+
 ## 🎯 What is Leve IA?
 
 **Leve IA** is a SaaS platform that generates AI-powered trading signals with full transparency on blockchain.
