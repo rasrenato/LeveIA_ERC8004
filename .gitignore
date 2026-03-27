@@ -1,47 +1,105 @@
-# Environment files with secrets
+# =========================
+# Secrets / credentials
+# =========================
 .env
 .env.*
 !.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.secret
+*.secrets
+*.token
+*.tokens
+*credential*
+.git-credentials
+google_service_account.json
+circle_grant_data.env
+.env.secrets
 
-# Coverage reports
-.coverage/
+# =========================
+# Personal / operational memory
+# =========================
+MEMORY.md
+memory/
+HEARTBEAT.md
+USER.md
+IDENTITY.md
+SOUL.md
+TOOLS.md
 
-# IDE and editor
+# =========================
+# OpenClaw runtime / local agent state
+# =========================
+.openclaw/
+.agent_orchestrator
+.leveia_paths
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage/
+htmlcov/
+venv/
+venv_*/
+.venv/
+
+# =========================
+# Node / JS
+# =========================
+node_modules/
+.npm/
+.next/
+dist/
+build/
+
+# =========================
+# Logs / caches / temp
+# =========================
+*.log
+logs/
+cache/
+tmp/
+temp/
+*.tmp
+artifacts/
+
+# =========================
+# OS / editor
+# =========================
 .vscode/
 .idea/
 *.swp
 *.swo
+.DS_Store
 
-# Logs
-*.log
-logs/
-
-# Temporary files
-tmp/
-temp/
-*.tmp
-
-# Node modules (if applicable)
-node_modules/
-
-# OpenClaw runtime
-.openclaw/
-.env.secrets
-.agent_orchestrator
+# =========================
+# Local tool state
+# =========================
 .claude/
 .clawhub/
 
-# Python caches and envs
-__pycache__/
-*.pyc
-venv/
-venv_*/
+# =========================
+# Generated reports / runtime outputs
+# =========================
+reports/alpha_prediction_latest.json
 
-# Build/cache artifacts
-cache/
-artifacts/
-
-# Internal memory and local ops
-memory/
-MEMORY.md
-HEARTBEAT.md
+# =========================
+# Optional: bulky media/debug evidence
+# Keep versioned only if explicitly needed
+# =========================
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.webp
