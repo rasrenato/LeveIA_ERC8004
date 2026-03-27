@@ -23,6 +23,9 @@ Define o stack real/proposto de agentes e critérios de governança.
 ### 5. `official-repo-governance.md`
 Define como o repositório deve crescer sem virar lixo operacional.
 
+### 6. `ecosystem-audit-matrix.md`
+Consolida a visão executiva do que está ativo, presente, externo, bloqueado, proposto ou ausente.
+
 ---
 
 ## Regra
