@@ -112,6 +112,11 @@ leveia-dashboard/node_modules/
 leveia-dashboard/dist/
 
 # =========================
+# External embedded repos guard
+# =========================
+aster-mcp/
+
+# =========================
 # Optional: bulky media/debug evidence
 # Keep versioned only if explicitly needed
 # =========================
