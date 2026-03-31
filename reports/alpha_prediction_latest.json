@@ -1,11 +1,11 @@
 {
-    "last_update": 1774915201,
+    "last_update": 1774936801,
     "predictions": [
         {
-            "timestamp": 1774915201,
+            "timestamp": 1774936801,
             "asset": "BTC",
             "current_price": 68500,
-            "rsi": 49.69,
+            "rsi": 62.62,
             "engine": "Local-Logic",
             "precision_score": "85.2%",
             "macro": "Neutral-Bullish",
@@ -40,10 +40,10 @@
             }
         },
         {
-            "timestamp": 1774915201,
+            "timestamp": 1774936801,
             "asset": "ETH",
             "current_price": 2650,
-            "rsi": 53.81,
+            "rsi": 42.19,
             "engine": "Local-Logic",
             "precision_score": "85.2%",
             "macro": "Neutral-Bullish",
@@ -78,10 +78,10 @@
             }
         },
         {
-            "timestamp": 1774915201,
+            "timestamp": 1774936801,
             "asset": "BNB",
             "current_price": 590,
-            "rsi": 62.96,
+            "rsi": 74.26,
             "engine": "Local-Logic",
             "precision_score": "85.2%",
             "macro": "Neutral-Bullish",
